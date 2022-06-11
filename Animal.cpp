@@ -32,7 +32,7 @@ Animal::~Animal() {
 }
 void Dog::addTalant(string name) {
 	if (name == "Dance") {
-		talants.emplace_back(new Swimming());
+		talants.emplace_back(new Dancing());
 	}
 	else if (name == "Swim") {
 		talants.emplace_back(new Swimming());

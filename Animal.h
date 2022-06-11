@@ -6,10 +6,12 @@ using namespace std;
 class Talant {
 public:
 	virtual string getTalant() = 0;
+	virtual ~Talant() = default;
 };
 class Dancing : virtual public Talant
 {
 	virtual string getTalant()override;
+	
 };
 class Swimming : virtual public Talant
 {

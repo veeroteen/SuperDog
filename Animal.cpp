@@ -1,12 +1,12 @@
 #include "Animal.h"
 
-string Dancing::getTalant() {
+string Dancing::getTalant () {
 	return "Dance";
 }
-string Swimming::getTalant() {
+string Swimming::getTalant(){ 
 	return "Swim";
 }
-string Counting::getTalant() {
+string Counting::getTalant(){ 
 	return "Count";
 }
 
@@ -28,12 +28,13 @@ void Animal::showTalants() {
 
 void Dog::addTalant(string name) {
 	if (name == "Dance") {
-		talants.push_back(new Dancing());
+		talants.emplace_back(new Swimming());
 	}
 	else if (name == "Swim") {
-		talants.push_back(new Swimming());
+		talants.emplace_back(new Swimming());
 	}
 	else if (name == "Count") {
-		talants.push_back(new Counting());
+		talants.emplace_back(new Counting());
 	}
 }
+

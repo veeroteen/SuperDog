@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SuperDog", "SuperDog.vcxproj", "{06F16791-C03A-4CA8-859A-2CB3F133B71E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06F16791-C03A-4CA8-859A-2CB3F133B71E}.Debug|x64.ActiveCfg = Debug|x64
+		{06F16791-C03A-4CA8-859A-2CB3F133B71E}.Debug|x64.Build.0 = Debug|x64
+		{06F16791-C03A-4CA8-859A-2CB3F133B71E}.Debug|x86.ActiveCfg = Debug|Win32
+		{06F16791-C03A-4CA8-859A-2CB3F133B71E}.Debug|x86.Build.0 = Debug|Win32
+		{06F16791-C03A-4CA8-859A-2CB3F133B71E}.Release|x64.ActiveCfg = Release|x64
+		{06F16791-C03A-4CA8-859A-2CB3F133B71E}.Release|x64.Build.0 = Release|x64
+		{06F16791-C03A-4CA8-859A-2CB3F133B71E}.Release|x86.ActiveCfg = Release|Win32
+		{06F16791-C03A-4CA8-859A-2CB3F133B71E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {136C7134-CE97-4497-88DC-3A91835ADCB6}
+	EndGlobalSection
+EndGlobal

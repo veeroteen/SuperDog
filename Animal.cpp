@@ -25,7 +25,11 @@ void Animal::showTalants() {
 		cout << "It can " << talants[i]->getTalant() << endl;
 	}
 }
-
+Animal::~Animal() {
+	for (int i = 0; i < talants.size(); i++) {
+		delete talants[i];
+	}
+}
 void Dog::addTalant(string name) {
 	if (name == "Dance") {
 		talants.emplace_back(new Swimming());

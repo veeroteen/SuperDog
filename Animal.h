@@ -28,11 +28,7 @@ protected:
 	string name;
 	vector <Talant*> talants;
 public:
-	virtual ~Animal() {
-		for (int i = 0; i < talants.size(); i++) {
-			delete talants[i];
-		}
-	}
+	virtual ~Animal();
 	virtual void voice() = 0;
 	virtual void showTalants();
 	virtual void addTalant(string name) = 0;

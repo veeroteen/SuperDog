@@ -40,8 +40,4 @@ public:
 	Dog(string name);
 	virtual void voice();
 	virtual void addTalant(string name);
-	Talant* gettalant() {
-		return talants[0];
-	}
-
 };
